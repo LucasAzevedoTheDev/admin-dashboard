@@ -160,7 +160,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow: 10px 0 5px -2px #888;
+  box-shadow: inset 13px 0px 5px -2px #232b3d;
 }
 
 .project-item-icons {
