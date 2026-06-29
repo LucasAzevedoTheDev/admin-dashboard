@@ -16,6 +16,46 @@ img {
 
 .header {
   background-color: #fff;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: 1fr 1fr;
+  padding-left: 30px;
+  padding-right: 60px;
+}
+
+.upper-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upper-row-left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  width: 50em;
+  height: 1.8em;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(226, 233, 242);
+  margin-left: 10px;
+}
+
+.upper-row-right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.upper-row-right > img[src="profile-icons/main-user.png"] {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .sidebar {
@@ -52,27 +92,6 @@ img {
 
 .sidebar-icon {
   filter: brightness(0) invert(1);
-}
-
-.header {
-  display: grid;
-  grid-auto-flow: row;
-  grid-template-rows: 1fr 1fr;
-  padding-left: 30px;
-}
-
-.upper-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-input {
-  width: 40em;
-  height: 1.8em;
-  border-radius: 10px;
-  border: none;
-  background-color: grey;
 }
 
 .main-content-container {
