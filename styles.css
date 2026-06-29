@@ -19,7 +19,7 @@ img {
   display: grid;
   grid-auto-flow: row;
   grid-template-rows: 1fr 1fr;
-  padding-left: 30px;
+  padding-left: 40px;
   padding-right: 60px;
 }
 
@@ -56,6 +56,30 @@ input {
   width: 50px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.lower-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lower-row img {
+  width: 70px;
+}
+
+.lower-row-left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.lower-row-right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
 }
 
 .sidebar {
