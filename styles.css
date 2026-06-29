@@ -132,6 +132,10 @@ button {
   background-color: rgb(238, 235, 235);
   display: grid;
   grid-template-columns: 4fr 1fr;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-right: 25px;
+  padding-bottom: 60px;
 }
 
 .your-projects {
@@ -139,9 +143,26 @@ button {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
+.project-item {
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.project-item-icons {
+  align-self: flex-end;
+  display: flex;
+  gap: 20px;
+}
 
 
 
