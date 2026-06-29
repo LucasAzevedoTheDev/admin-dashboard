@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 img {
@@ -19,7 +20,15 @@ img {
 
 .sidebar {
   background-color: rgb(69, 137, 255);
-  grid-row: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.sidebar-title > img {
+  width: 50px;
+}
+
+.main-content-container {
+  background-color: rgb(238, 235, 235);
 }
 
 
