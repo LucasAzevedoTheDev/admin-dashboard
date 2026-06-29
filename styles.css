@@ -21,6 +21,7 @@ img {
   grid-template-rows: 1fr 1fr;
   padding-left: 40px;
   padding-right: 60px;
+  padding-bottom: 20px;
 }
 
 .upper-row {
@@ -80,6 +81,15 @@ input {
   justify-content: space-evenly;
   align-items: center;
   gap: 20px;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(69, 137, 255);
+  color: #fff;
+  font-weight: 500;
 }
 
 .sidebar {
